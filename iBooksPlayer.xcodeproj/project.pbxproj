@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F11E0AC1588903C0006B7DF /* Adrift On Celestial Seas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F11E0AB1588903C0006B7DF /* Adrift On Celestial Seas.mp3 */; };
+		3F4B08FD1588EF8500DED571 /* metadataRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B08FC1588EF8500DED571 /* metadataRetriever.m */; };
+		3F6B757515889B3B00F7384F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6B757415889B3B00F7384F /* MediaPlayer.framework */; };
+		3F6B757815889F8E00F7384F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6B757715889F8E00F7384F /* AudioToolbox.framework */; };
+		3F831FA01587943E0017A125 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F831F9F1587943E0017A125 /* UIKit.framework */; };
+		3F831FA21587943E0017A125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F831FA11587943E0017A125 /* Foundation.framework */; };
+		3F831FA41587943E0017A125 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F831FA31587943E0017A125 /* CoreGraphics.framework */; };
+		3F831FAA1587943E0017A125 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F831FA81587943E0017A125 /* InfoPlist.strings */; };
+		3F831FAC1587943E0017A125 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F831FAB1587943E0017A125 /* main.m */; };
+		3F831FB01587943E0017A125 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F831FAF1587943E0017A125 /* AppDelegate.m */; };
+		3F831FB31587943E0017A125 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F831FB21587943E0017A125 /* ViewController.m */; };
+		3F831FB61587943E0017A125 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F831FB41587943E0017A125 /* ViewController.xib */; };
+		3F831FBD158794760017A125 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F831FBC158794760017A125 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F11E0AB1588903C0006B7DF /* Adrift On Celestial Seas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Adrift On Celestial Seas.mp3"; sourceTree = "<group>"; };
+		3F4B08FB1588EF8500DED571 /* metadataRetriever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadataRetriever.h; sourceTree = "<group>"; };
+		3F4B08FC1588EF8500DED571 /* metadataRetriever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = metadataRetriever.m; sourceTree = "<group>"; };
+		3F6B757415889B3B00F7384F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3F6B757715889F8E00F7384F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3F831F9B1587943E0017A125 /* iBooksPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBooksPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F831F9F1587943E0017A125 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F831FA11587943E0017A125 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F831FA31587943E0017A125 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F831FA71587943E0017A125 /* iBooksPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBooksPlayer-Info.plist"; sourceTree = "<group>"; };
+		3F831FA91587943E0017A125 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F831FAB1587943E0017A125 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F831FAD1587943E0017A125 /* iBooksPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBooksPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		3F831FAE1587943E0017A125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F831FAF1587943E0017A125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F831FB11587943E0017A125 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F831FB21587943E0017A125 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F831FB51587943E0017A125 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3F831FBC158794760017A125 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F831F981587943E0017A125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6B757815889F8E00F7384F /* AudioToolbox.framework in Frameworks */,
+				3F6B757515889B3B00F7384F /* MediaPlayer.framework in Frameworks */,
+				3F831FBD158794760017A125 /* AVFoundation.framework in Frameworks */,
+				3F831FA01587943E0017A125 /* UIKit.framework in Frameworks */,
+				3F831FA21587943E0017A125 /* Foundation.framework in Frameworks */,
+				3F831FA41587943E0017A125 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4B08FF1588F82500DED571 /* MetadataRetriever */ = {
+			isa = PBXGroup;
+			children = (
+				3F4B08FB1588EF8500DED571 /* metadataRetriever.h */,
+				3F4B08FC1588EF8500DED571 /* metadataRetriever.m */,
+			);
+			name = MetadataRetriever;
+			sourceTree = "<group>";
+		};
+		3F831F901587943E0017A125 = {
+			isa = PBXGroup;
+			children = (
+				3F831FA51587943E0017A125 /* iBooksPlayer */,
+				3F831F9E1587943E0017A125 /* Frameworks */,
+				3F831F9C1587943E0017A125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F831F9C1587943E0017A125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F831F9B1587943E0017A125 /* iBooksPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F831F9E1587943E0017A125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B757715889F8E00F7384F /* AudioToolbox.framework */,
+				3F6B757415889B3B00F7384F /* MediaPlayer.framework */,
+				3F831FBC158794760017A125 /* AVFoundation.framework */,
+				3F831F9F1587943E0017A125 /* UIKit.framework */,
+				3F831FA11587943E0017A125 /* Foundation.framework */,
+				3F831FA31587943E0017A125 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F831FA51587943E0017A125 /* iBooksPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3F831FAE1587943E0017A125 /* AppDelegate.h */,
+				3F831FAF1587943E0017A125 /* AppDelegate.m */,
+				3F831FB11587943E0017A125 /* ViewController.h */,
+				3F831FB21587943E0017A125 /* ViewController.m */,
+				3F831FB41587943E0017A125 /* ViewController.xib */,
+				3F4B08FF1588F82500DED571 /* MetadataRetriever */,
+				3F831FA61587943E0017A125 /* Supporting Files */,
+			);
+			path = iBooksPlayer;
+			sourceTree = "<group>";
+		};
+		3F831FA61587943E0017A125 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F11E0AB1588903C0006B7DF /* Adrift On Celestial Seas.mp3 */,
+				3F831FA71587943E0017A125 /* iBooksPlayer-Info.plist */,
+				3F831FA81587943E0017A125 /* InfoPlist.strings */,
+				3F831FAB1587943E0017A125 /* main.m */,
+				3F831FAD1587943E0017A125 /* iBooksPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F831F9A1587943E0017A125 /* iBooksPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F831FB91587943E0017A125 /* Build configuration list for PBXNativeTarget "iBooksPlayer" */;
+			buildPhases = (
+				3F831F971587943E0017A125 /* Sources */,
+				3F831F981587943E0017A125 /* Frameworks */,
+				3F831F991587943E0017A125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBooksPlayer;
+			productName = iBooksPlayer;
+			productReference = 3F831F9B1587943E0017A125 /* iBooksPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F831F921587943E0017A125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3F831F951587943E0017A125 /* Build configuration list for PBXProject "iBooksPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F831F901587943E0017A125;
+			productRefGroup = 3F831F9C1587943E0017A125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F831F9A1587943E0017A125 /* iBooksPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F831F991587943E0017A125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F831FAA1587943E0017A125 /* InfoPlist.strings in Resources */,
+				3F831FB61587943E0017A125 /* ViewController.xib in Resources */,
+				3F11E0AC1588903C0006B7DF /* Adrift On Celestial Seas.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F831F971587943E0017A125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F831FAC1587943E0017A125 /* main.m in Sources */,
+				3F831FB01587943E0017A125 /* AppDelegate.m in Sources */,
+				3F831FB31587943E0017A125 /* ViewController.m in Sources */,
+				3F4B08FD1588EF8500DED571 /* metadataRetriever.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F831FA81587943E0017A125 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F831FA91587943E0017A125 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F831FB41587943E0017A125 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F831FB51587943E0017A125 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F831FB71587943E0017A125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F831FB81587943E0017A125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F831FBA1587943E0017A125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBooksPlayer/iBooksPlayer-Prefix.pch";
+				INFOPLIST_FILE = "iBooksPlayer/iBooksPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F831FBB1587943E0017A125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBooksPlayer/iBooksPlayer-Prefix.pch";
+				INFOPLIST_FILE = "iBooksPlayer/iBooksPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F831F951587943E0017A125 /* Build configuration list for PBXProject "iBooksPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F831FB71587943E0017A125 /* Debug */,
+				3F831FB81587943E0017A125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F831FB91587943E0017A125 /* Build configuration list for PBXNativeTarget "iBooksPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F831FBA1587943E0017A125 /* Debug */,
+				3F831FBB1587943E0017A125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F831F921587943E0017A125 /* Project object */;
+}
